@@ -1,0 +1,59 @@
+---
+description: ailab projesi nin kuralları 
+globs: 
+---
+
+Aşağıda, proje kapsamında Cursor programının konuyu dağıtmadan, direkt hedefe yönelik ve verimli çalışmasını sağlayacak şekilde uygulanması için önerilen kuralları (rules) detaylandırdım. Bu kurallar, her modülün (özellikle “Try on Clothes Refiner” ve “Virtual Clothes Try-On” modüllerinin) kurulumu, entegrasyonu, hata yönetimi, performans optimizasyonu ve güvenlik kontrollerinin sağlanması amacıyla belirlenmiştir.
+
+Cursor Programı Entegrasyon Kuralları
+
+1. Modüler Yapı ve Hedef Odaklılık
+	•	Modül Tanımlama:
+Her AI aracı, bağımsız bir “plugin” olarak tanımlanacak. Bu sayede her modül izole çalışacak ve diğerlerinden etkilenmeden güncellenebilecektir.
+	•	Öncelik Sırası:
+İlk aşamada “Try on Clothes Refiner” ve “Virtual Clothes Try-On” modülleri kurulacak. Diğer uygulamalar, temel modüllerin sorunsuz çalıştığı onaylandıktan sonra otomatik olarak eklenmek üzere sıraya konulacaktır.
+
+2. API Entegrasyonu ve Güvenlik
+	•	API Key Yönetimi:
+API key, .env dosyasında saklanacak ve tüm API çağrılarında otomatik olarak header veya query parametresi olarak eklenecektir.
+	•	Güvenli İletişim:
+Tüm API istekleri HTTPS üzerinden gerçekleştirilecek ve CORS politikaları sıkı bir şekilde uygulanacaktır.
+
+3. Hata Yönetimi ve Performans Optimizasyonu
+	•	Hata Yönetimi:
+Her modül entegrasyonunda, hata ve exception yönetimi yer alacak. Otomatik yeniden deneme (retry) mekanizmaları ile geçici hataların üstesinden gelinmesi sağlanacaktır.
+	•	Loglama:
+Modül yükleme, API çağrıları ve hata durumları detaylı olarak loglanacak, böylece sorunlar anında tespit edilebilecektir.
+	•	Önbellekleme:
+Gereksiz API çağrılarını minimize etmek için cache mekanizmaları entegre edilecek.
+
+4. Cursor Komut Dizilimi ve Otomasyon
+	•	Temel Komutlar:
+Projenin başlangıcında aşağıdaki komut setleri ile temel iskelet oluşturulacak:
+	•	cursor create [proje-adı] – Proje iskeletinin oluşturulması.
+	•	cursor add module [modül-adı] – Belirli modülün eklenmesi.
+	•	cursor test module [modül-adı] – Modül için otomatik testlerin çalıştırılması.
+	•	cursor deploy module [modül-adı] – Onaylanan modülün canlıya aktarılması.
+	•	Plugin Yapısı:
+Her modül, bağımsız çalışacak şekilde yapılandırılacak; böylece yeni modüllerin eklenmesi veya mevcut modüllerin güncellenmesi sırasında sistem kararlılığından ödün verilmemiş olacak.
+
+5. Kullanıcı Arayüzü ve Sesli Komut Desteği
+	•	UI Entegrasyonu:
+Her modül için dinamik ve modern bir kullanıcı arayüzü geliştirilecek. UI, API çağrılarından dönen sonuçları net biçimde gösterecek şekilde tasarlanacaktır.
+	•	Sesli Komutlar:
+Uygulama, “evet” veya “yap” gibi sesli komutları dinleyerek sonraki entegrasyon adımlarına geçiş yapacak. Bu özellik, Web Speech API veya benzeri bir kütüphane ile entegre edilecek ve diğer işlemleri kesintiye uğratmayacak.
+
+6. Test Süreçleri ve Geri Bildirim Döngüsü
+	•	Otomatik Test:
+Her modülün unit ve entegrasyon testleri otomatik olarak çalıştırılacak. Cursor komutları, test sonuçlarını değerlendirip hata durumlarını raporlayacak.
+	•	Geri Bildirim:
+Entegrasyon adımları tamamlandıktan sonra, sistem otomatik olarak kullanıcı ve geliştirici geri bildirimlerini toplayacak. Bu sayede süreç sürekli iyileştirilecektir.
+
+7. Genişletilebilirlik ve Dokümantasyon
+	•	Yeni Modül Eklemeleri:
+Proje ilerledikçe yeni modüllerin eklenebilmesi için genişletilebilir bir yapı kurulacak. Her yeni modül, tanımlı kural setlerine uygun olarak otomatik yapılandırılacaktır.
+	•	Detaylı Dokümantasyon:
+Tüm süreçler, komutlar, API entegrasyonları ve hata yönetimi adımları detaylı olarak dokümante edilecek. Böylece proje sürecinin her aşaması takip edilebilir ve gerektiğinde geliştirici ekibe referans sağlanacaktır.
+
+Bu kurallar, Cursor programının tüm entegrasyon adımlarını otomatik, hatasız ve doğrudan hedefe yönelik gerçekleştirmesini sağlayacak şekilde tasarlanmıştır. Böylece, projenin her aşaması planlandığı gibi ilerleyecek, gereksiz dağıtıcı unsurlar önlenecek ve sistem verimli bir şekilde çalışacaktır.
+

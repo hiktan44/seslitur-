@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.5.0)
+  - GoogleWebRTC (1.1.32000)
+  - KeychainAccess (4.2.2)
+  - SDWebImage (5.12.6):
+    - SDWebImage/Core (= 5.12.6)
+  - SDWebImage/Core (5.12.6)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5.0)
+  - GoogleWebRTC (~> 1.1.32000)
+  - KeychainAccess (~> 4.2.2)
+  - SDWebImage (~> 5.12.0)
+  - Socket.IO-Client-Swift (= 16.0.1)
+  - Starscream (= 4.0.4)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleWebRTC
+    - KeychainAccess
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  GoogleWebRTC: 4d261187b30512efdb711d21fa961a6adf138717
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 089af063dfa1d23390a4e28276515a9d1527ddf4
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'SesliIletisim' in project 'SesliIletisim' (no dependencies)

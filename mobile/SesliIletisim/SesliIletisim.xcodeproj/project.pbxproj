@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A123A012B9354000000A001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A002B9354000000A001 /* AppDelegate.swift */; };
+		5A123A032B9354000000A002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A022B9354000000A002 /* SceneDelegate.swift */; };
+		5A123A052B9354000000A003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A042B9354000000A003 /* MainViewController.swift */; };
+		5A123A072B9354000000A004 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A062B9354000000A004 /* LoginViewController.swift */; };
+		5A123A092B9354000000A005 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A082B9354000000A005 /* RegisterViewController.swift */; };
+		5A123A0B2B9354000000A006 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A0A2B9354000000A006 /* DashboardViewController.swift */; };
+		5A123A0D2B9354000000A007 /* AdminDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A0C2B9354000000A007 /* AdminDashboardViewController.swift */; };
+		5A123A0F2B9354000000A008 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A0E2B9354000000A008 /* ForgotPasswordViewController.swift */; };
+		5A123A112B9354000000A009 /* WebRTCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A123A102B9354000000A009 /* WebRTCService.swift */; };
+		5A123A132B9354000000A010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A123A122B9354000000A010 /* Assets.xcassets */; };
+		5A123A162B9354000000A011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A123A142B9354000000A011 /* LaunchScreen.storyboard */; };
+		BDAAB820CB06C680CA6E8FE2 /* Pods_SesliIletisim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992F8C5721740897A614C571 /* Pods_SesliIletisim.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A1239FD2B9354000000A001 /* SesliIletisim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesliIletisim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A123A002B9354000000A001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A123A022B9354000000A002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A123A042B9354000000A003 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5A123A062B9354000000A004 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A123A082B9354000000A005 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5A123A0A2B9354000000A006 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5A123A0C2B9354000000A007 /* AdminDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardViewController.swift; sourceTree = "<group>"; };
+		5A123A0E2B9354000000A008 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		5A123A102B9354000000A009 /* WebRTCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCService.swift; sourceTree = "<group>"; };
+		5A123A122B9354000000A010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A123A152B9354000000A011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A123A172B9354000000A012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF3445D9AE0DB9C59380DA3 /* Pods-SesliIletisim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SesliIletisim.debug.xcconfig"; path = "Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim.debug.xcconfig"; sourceTree = "<group>"; };
+		992F8C5721740897A614C571 /* Pods_SesliIletisim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SesliIletisim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76F74767DF15D57A962D853 /* Pods-SesliIletisim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SesliIletisim.release.xcconfig"; path = "Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim.release.xcconfig"; sourceTree = "<group>"; };
+		EDB75DBC2D75632900674A98 /* custom.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = custom.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1239FA2B9354000000A001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAAB820CB06C680CA6E8FE2 /* Pods_SesliIletisim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A71D10ECAC70B1E76FA4B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF3445D9AE0DB9C59380DA3 /* Pods-SesliIletisim.debug.xcconfig */,
+				B76F74767DF15D57A962D853 /* Pods-SesliIletisim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		280428F0D5C31E6508090A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992F8C5721740897A614C571 /* Pods_SesliIletisim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A1239F42B9354000000A001 = {
+			isa = PBXGroup;
+			children = (
+				5A1239FF2B9354000000A001 /* SesliIletisim */,
+				5A1239FE2B9354000000A001 /* Products */,
+				23A71D10ECAC70B1E76FA4B8 /* Pods */,
+				EDB75DBC2D75632900674A98 /* custom.xcconfig */,
+				280428F0D5C31E6508090A4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1239FE2B9354000000A001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1239FD2B9354000000A001 /* SesliIletisim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1239FF2B9354000000A001 /* SesliIletisim */ = {
+			isa = PBXGroup;
+			children = (
+				5A123A002B9354000000A001 /* AppDelegate.swift */,
+				5A123A022B9354000000A002 /* SceneDelegate.swift */,
+				5A123A1E2B9354000000A013 /* Controllers */,
+				5A123A1F2B9354000000A014 /* Services */,
+				5A123A122B9354000000A010 /* Assets.xcassets */,
+				5A123A142B9354000000A011 /* LaunchScreen.storyboard */,
+				5A123A172B9354000000A012 /* Info.plist */,
+			);
+			path = SesliIletisim;
+			sourceTree = "<group>";
+		};
+		5A123A1E2B9354000000A013 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A123A042B9354000000A003 /* MainViewController.swift */,
+				5A123A062B9354000000A004 /* LoginViewController.swift */,
+				5A123A082B9354000000A005 /* RegisterViewController.swift */,
+				5A123A0A2B9354000000A006 /* DashboardViewController.swift */,
+				5A123A0C2B9354000000A007 /* AdminDashboardViewController.swift */,
+				5A123A0E2B9354000000A008 /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5A123A1F2B9354000000A014 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5A123A102B9354000000A009 /* WebRTCService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1239FC2B9354000000A001 /* SesliIletisim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A123A1A2B9354000000A013 /* Build configuration list for PBXNativeTarget "SesliIletisim" */;
+			buildPhases = (
+				7BA015ADA304E2DB7DB54438 /* [CP] Check Pods Manifest.lock */,
+				5A1239F92B9354000000A001 /* Sources */,
+				5A1239FA2B9354000000A001 /* Frameworks */,
+				5A1239FB2B9354000000A001 /* Resources */,
+				EDDA0C3F2D7568550095FF46 /* ShellScript */,
+				403C498FC13ECEB145A3D68F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SesliIletisim;
+			productName = SesliIletisim;
+			productReference = 5A1239FD2B9354000000A001 /* SesliIletisim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1239F52B9354000000A001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5A1239FC2B9354000000A001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A1239F82B9354000000A001 /* Build configuration list for PBXProject "SesliIletisim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1239F42B9354000000A001;
+			productRefGroup = 5A1239FE2B9354000000A001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1239FC2B9354000000A001 /* SesliIletisim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1239FB2B9354000000A001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A123A162B9354000000A011 /* LaunchScreen.storyboard in Resources */,
+				5A123A132B9354000000A010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403C498FC13ECEB145A3D68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA015ADA304E2DB7DB54438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SesliIletisim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDA0C3F2D7568550095FF46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Starscream Privacy Bundle Manual Creation Script\n\nBUNDLE_DIR=\"${BUILT_PRODUCTS_DIR}/Starscream/Starscream_Privacy.bundle\"\nmkdir -p \"${BUNDLE_DIR}\"\n\necho \"Starscream Privacy Bundle oluşturuluyor: ${BUNDLE_DIR}\"\n\n# Info.plist oluştur\ncat > \"${BUNDLE_DIR}/Info.plist\" << 'EOFPLIST'\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>CFBundleIdentifier</key>\n    <string>com.vluxe.starscream.privacy</string>\n    <key>CFBundleInfoDictionaryVersion</key>\n    <string>6.0</string>\n    <key>CFBundleName</key>\n    <string>Starscream_Privacy</string>\n    <key>CFBundlePackageType</key>\n    <string>BNDL</string>\n    <key>CFBundleShortVersionString</key>\n    <string>1.0</string>\n    <key>CFBundleVersion</key>\n    <string>1</string>\n</dict>\n</plist>\nEOFPLIST\n\n# Privacy info oluştur\ncat > \"${BUNDLE_DIR}/Starscream_Privacy\" << 'EOFPRIVACY'\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>NSPrivacyTracking</key>\n    <false/>\n    <key>NSPrivacyTrackingDomains</key>\n    <array/>\n    <key>NSPrivacyCollectedDataTypes</key>\n    <array/>\n    <key>NSPrivacyAccessedAPITypes</key>\n    <array/>\n</dict>\n</plist>\nEOFPRIVACY\n\necho \"Starscream Privacy Bundle başarıyla oluşturuldu!\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A1239F92B9354000000A001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A123A072B9354000000A004 /* LoginViewController.swift in Sources */,
+				5A123A012B9354000000A001 /* AppDelegate.swift in Sources */,
+				5A123A032B9354000000A002 /* SceneDelegate.swift in Sources */,
+				5A123A052B9354000000A003 /* MainViewController.swift in Sources */,
+				5A123A092B9354000000A005 /* RegisterViewController.swift in Sources */,
+				5A123A0B2B9354000000A006 /* DashboardViewController.swift in Sources */,
+				5A123A0D2B9354000000A007 /* AdminDashboardViewController.swift in Sources */,
+				5A123A0F2B9354000000A008 /* ForgotPasswordViewController.swift in Sources */,
+				5A123A112B9354000000A009 /* WebRTCService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A123A142B9354000000A011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A123A152B9354000000A011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A123A182B9354000000A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_XOJIT_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XCCONFIG_INCLUDE = custom.xcconfig;
+			};
+			name = Debug;
+		};
+		5A123A192B9354000000A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_XOJIT_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XCCONFIG_INCLUDE = custom.xcconfig;
+			};
+			name = Release;
+		};
+		5A123A1B2B9354000000A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB75DBC2D75632900674A98 /* custom.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q6FZ55UAZ5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/**",
+					"${PODS_CONFIGURATION_BUILD_DIR}",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SesliIletisim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"ORDER_FILE[arch=*]" = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"Pods_SesliIletisim\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SesliIletisim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XCCONFIG_INCLUDE = custom.xcconfig;
+			};
+			name = Debug;
+		};
+		5A123A1C2B9354000000A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB75DBC2D75632900674A98 /* custom.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q6FZ55UAZ5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/**",
+					"${PODS_CONFIGURATION_BUILD_DIR}",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SesliIletisim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"Pods_SesliIletisim\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SesliIletisim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XCCONFIG_INCLUDE = custom.xcconfig;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1239F82B9354000000A001 /* Build configuration list for PBXProject "SesliIletisim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A123A182B9354000000A013 /* Debug */,
+				5A123A192B9354000000A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A123A1A2B9354000000A013 /* Build configuration list for PBXNativeTarget "SesliIletisim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A123A1B2B9354000000A013 /* Debug */,
+				5A123A1C2B9354000000A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1239F52B9354000000A001 /* Project object */;
+}

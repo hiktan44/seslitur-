@@ -1,0 +1,30 @@
+// Konfigürasyon dosyası
+// Bu dosya, proje ayarlarını merkezi olarak kontrol etmek için kullanılır
+
+// PODS XCCONFIG
+#include "Pods/Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-SesliIletisim/Pods-SesliIletisim.release.xcconfig"
+
+// FRAMEWORK SEARCH PATHS
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/Socket.IO-Client-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream" "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift" "${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks" 
+
+// HEADER SEARCH PATHS
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess/KeychainAccess.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Socket.IO-Client-Swift/SocketIO.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream/Starscream.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift/Toast_Swift.framework/Headers"
+
+// EXCLUDED ARCHS
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+
+// LIBRARY SEARCH PATHS
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+
+// RUNPATH SEARCH PATHS (önemli)
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+
+// iOS DEPLOYMENT HEDEF
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+
+// OTHER LDFLAGS
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "KeychainAccess" -framework "QuartzCore" -framework "SDWebImage" -framework "SocketIO" -framework "Starscream" -framework "Toast_Swift" -framework "UIKit" -framework "WebRTC"
+
+// Swift Standard Kütüphaneleri
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = $(inherited)

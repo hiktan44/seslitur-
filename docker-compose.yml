@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      target: development
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+      - "10000-10100:10000-10100/udp"
+    env_file: .env
+    environment:
+      - NODE_ENV=development
+      - MEDIASOUP_ANNOUNCED_IP=localhost
+    networks:
+      - tursesli-network
+    command: npm run start:dev
+    restart: unless-stopped
+
+  coturn:
+    image: coturn/coturn
+    restart: unless-stopped
+    ports:
+      - "3478:3478"
+      - "3478:3478/udp"
+      - "5349:5349"
+      - "5349:5349/udp"
+      - "49160-49200:49160-49200/udp"
+    volumes:
+      - ./turnserver.conf:/etc/turnserver.conf
+    networks:
+      - tursesli-network
+    command: ["-c", "/etc/turnserver.conf"]
+
+networks:
+  tursesli-network:
+    driver: bridge 

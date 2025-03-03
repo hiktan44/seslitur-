@@ -1,0 +1,43 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8514cbc95a9737368c15cc45beff96c76a7d34029f4484226703f0f8f75a0071"
+    }
+  ],
+  "containerPath" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "FRAMEWORK_SEARCH_PATHS" : "$(inherited) ${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks ${PODS_CONFIGURATION_BUILD_DIR}/Alamofire ${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess ${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage ${PODS_CONFIGURATION_BUILD_DIR}/Socket.IO-Client-Swift ${PODS_CONFIGURATION_BUILD_DIR}/Starscream ${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift",
+          "OTHER_LDFLAGS" : "$(inherited) -framework Alamofire -framework KeychainAccess -framework SDWebImage -framework SocketIO -framework Starscream -framework Toast_Swift -framework WebRTC"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "108",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

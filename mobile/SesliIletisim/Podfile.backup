@@ -1,0 +1,86 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+# Framework kullanımı
+use_frameworks!
+
+# Deterministik UUID'ler - tutarlı derleme için
+install! 'cocoapods', 
+  :deterministic_uuids => true,
+  :generate_multiple_pod_projects => false,
+  :incremental_installation => false
+
+target 'SesliIletisim' do
+  # Ağ istekleri için
+  pod 'Alamofire', '~> 5.5.0'
+  
+  # WebRTC için
+  pod 'GoogleWebRTC', '~> 1.1.32000'
+  
+  # Güvenli veri depolama için
+  pod 'KeychainAccess', '~> 4.2.2'
+  
+  # Resim yükleme/önbellekleme için
+  pod 'SDWebImage', '~> 5.12.0'
+  
+  # Soket bağlantısı için
+  pod 'Socket.IO-Client-Swift', '16.0.1'
+  
+  # WebSocket için
+  pod 'Starscream', '4.0.4'
+  
+  # UI bildirim gösterimi için
+  pod 'Toast-Swift', '~> 5.0.1'
+end
+
+# Tüm podların ayarlarını yapılandırma
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # iOS Deployment Target'ı ayarla
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      
+      # Bitcode'u devre dışı bırak
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      
+      # Simulator için arm64 mimarisini hariç tut
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      
+      # Cihaz için x86_64 mimarisini hariç tut
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphoneos*]"] = "x86_64"
+      
+      # Swift standart kütüphanelerini dahil et
+      config.build_settings['ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES'] = 'YES'
+      
+      # Modül tanımlarını etkinleştir
+      config.build_settings['DEFINES_MODULE'] = 'YES'
+      
+      # Swift sürümünü ayarla
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+      
+      # Modüler olmayan include'lara izin ver
+      config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+      
+      # Header framework içinde uyarı ver
+      config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = 'NO'
+      
+      # Socket.IO-Client-Swift için özel yapılandırma
+      if target.name == 'Socket.IO-Client-Swift'
+        config.build_settings['ENABLE_BITCODE'] = 'NO'
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+      
+      # Starscream için özel yapılandırma
+      if target.name == 'Starscream'
+        config.build_settings['ENABLE_BITCODE'] = 'NO'
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+      
+      # Spesifik header arama yolları
+      config.build_settings['HEADER_SEARCH_PATHS'] = '$(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleWebRTC"'
+      
+      # Framework arama yolları
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] = '$(inherited) "${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleWebRTC"'
+    end
+  end
+end

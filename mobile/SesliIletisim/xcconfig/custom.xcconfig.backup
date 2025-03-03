@@ -1,0 +1,15 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/**" "${PODS_ROOT}/GoogleWebRTC/Frameworks" "${PODS_ROOT}/**" "${PODS_XCFRAMEWORKS_BUILD_DIR}/**"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/**" "${PODS_ROOT}/**"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/**" "${PODS_ROOT}/**" "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+ENABLE_BITCODE = NO
+VALID_ARCHS = arm64 x86_64
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+EXCLUDED_ARCHS[sdk=iphoneos*] = x86_64
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Alamofire" -l"GoogleWebRTC" -l"KeychainAccess" -l"SDWebImage" -l"SocketIO" -l"Starscream" -l"Toast_Swift" -l"c++" -l"icucore" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "GLKit" -framework "ImageIO" -framework "MediaPlayer" -framework "UIKit" -framework "VideoToolbox" -framework "WebKit"
+SWIFT_VERSION = 5.0
+ONLY_ACTIVE_ARCH[config=Debug] = YES
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+BUILD_LIBRARY_FOR_DISTRIBUTION = YES
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/**" "${PODS_ROOT}/**"
+COMPILER_INDEX_STORE_ENABLE = NO
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym

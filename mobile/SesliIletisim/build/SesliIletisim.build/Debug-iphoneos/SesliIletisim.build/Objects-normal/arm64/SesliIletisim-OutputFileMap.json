@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SesliIletisim-master.dia",
+    "emit-module-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SesliIletisim-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SesliIletisim-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SesliIletisim-master.swiftdeps"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/AppDelegate.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/AdminDashboardViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/AdminDashboardViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/DashboardViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/DashboardViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/ForgotPasswordViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/ForgotPasswordViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/LoginViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/LoginViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/MainViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/MainViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Controllers/RegisterViewController.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/RegisterViewController~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/SceneDelegate.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/SesliIletisim/Services/WebRTCService.swift" : {
+    "const-values" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.swiftconstvalues",
+    "dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.d",
+    "diagnostics" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.dia",
+    "index-unit-output-path" : "/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.o",
+    "llvm-bc" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.bc",
+    "object" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.o",
+    "swift-dependencies" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService.swiftdeps",
+    "swiftmodule" : "/Users/hikmettanriverdi/adsız klasör/mobile/SesliIletisim/build/SesliIletisim.build/Debug-iphoneos/SesliIletisim.build/Objects-normal/arm64/WebRTCService~partial.swiftmodule"
+  }
+}
