@@ -27,8 +27,8 @@ TurSesli, 100-300 kişilik gruplar için internet üzerinden gerçek zamanlı se
 
 1. Depoyu klonlayın:
 ```bash
-git clone https://github.com/your-username/tursesli.git
-cd tursesli
+git clone https://github.com/hiktan44/seslitur-.git
+cd seslitur-
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -232,4 +232,4 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 ### v1.0.0 (2024-03-03)
 - İlk sürüm
 - Temel özellikler eklendi
-- Giriş sistemi optimize edildi 
+- Giriş sistemi optimize edildi
